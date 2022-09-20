@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d1dfff;
+    font-family:"Sora-Regular.ttf", sans-serif ;
+}
+/*body Inicio*/
+.body1{
+    background-image:url(../assets/img/car1.jpg);
+}
+/*body Nosotros*/
+.body2{
+    background-image:url(../assets/img/car2.jpg);
+}
+@font-face{
+    font-family:"Sora-Regular.ttf";
+    src: url(../assets/font/Sora-Regular.ttf);
+}
+@font-face {
+    font-family:"DM_Sans-Bold.ttf";
+    src: url(../assets/font/DMSans-Bold.ttf);
+}
+h1, h2, h4, h5{
+    font-family:"DMSans-Bold.ttf", sans-serif;
+    color: #02083f;
+    font-weight:bold ;
+    text-align: center;
+    padding: 5px;
+} 
+h1, h2{
+    font-size: 3.2rem;
+    color: rgb(247, 202, 3);
+} 
+/* ESTILO PARA EL MENÚ - TODOS LOS VIEWS*/
+.logo{
+    width: 100px;
+}
+.textmenu{
+    color: rgb(2, 12, 68);
+}
+.nav-item a:hover{
+    background-color: #003b88;
+    border-radius: 0.3rem;
+    color: #d1dfff;
+}
+/* ESTILO MAIN VIEWS:INDEX-NOSOTROS*/
+.p1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #051177;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.397);
+}
+/*ESTILO DEL FORMULARIO - VIEW= contacto*/
+.header {
+    color: #051177;
+    font-size: 35px;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.397)
+}
+/*AQUI TERMINA ESTILO DE FORMULARIO*/
+
+/* ESTILO PARA EL FOOTER - TODOS LOS VIEWS*/
+.textfoot{
+    color: rgb(2, 12, 68);
+}
+.textred{
+    color: rgb(2, 12, 68);
+}
+.textfoot a:hover{
+    background-color: #003b88;
+    border-radius: 0.3rem;
+    color: #d1dfff;
+    padding: 0.5rem
+}
+.logofoot{
+    text-align: center;
+}
