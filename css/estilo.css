@@ -15,6 +15,10 @@ body{
 .body2{
     background-image:url(../assets/img/car2.jpg);
 }
+/*body Contacto*/
+.body3{
+    background-image:url(../assets/img/car1.jpg);
+}
 @font-face{
     font-family:"Sora-Regular.ttf";
     src: url(../assets/font/Sora-Regular.ttf);
@@ -54,7 +58,7 @@ h1, h2{
     padding: 10px;
     background-color: rgba(240, 248, 255, 0.397);
 }
-/*ESTILO DEL FORMULARIO - VIEW= contacto*/
+/*ESTILO DEL FORMULARIO - VIEW= CONTACTO*/
 .header {
     color: #051177;
     font-size: 35px;
