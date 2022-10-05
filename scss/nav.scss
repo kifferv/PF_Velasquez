@@ -1,0 +1,20 @@
+.nav{
+    background-color: $azulClaro;
+    &__logo{
+        width: 5rem;
+    }
+    &__item{
+        padding: 0.2rem;
+        margin: 0.1rem;
+        border-radius: 0.5rem;
+        background-color: $azulMedio;
+    }
+    &__item a:hover{
+        background-color: $azulOscuro;
+        border-radius: 0.3rem;
+        color: $blanco;
+    }
+    &__text{
+        color: $blanco;
+    }
+}

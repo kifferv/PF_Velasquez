@@ -1,0 +1,20 @@
+@mixin sections (){
+    padding: 0.3rem;
+    &__titulo{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background-color: #022f6963;
+        color: $amarillo;
+        font-size: 3rem;
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+    &__parrafo{
+        background-color: #ffffffab;
+        color: $azulOscuro;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+}

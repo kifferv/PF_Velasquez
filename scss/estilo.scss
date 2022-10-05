@@ -1,0 +1,43 @@
+$azulClaro:#00a2ff;
+$azulMedio:#034aa7;
+$azulOscuro:#020c44;
+$blanco:#ffffff;
+$amarillo:#ffd000;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "mixin";
+
+body{
+    background-color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+/*las imagenes pesan en promedio 100kb estan optimizadas*/
+.body{
+    &__index{
+        background-image: url(../assets/img/car1.jpg);
+    }
+    &__nosotros{
+        background-image: url(../assets/img/car2.jpg);
+    }
+    &__productos{
+        background-image: url(../assets/img/);
+    }
+    &__contacto{
+        background-image: url(../assets/img/car10.1.jpg);
+    }
+}
+/*Menú*/
+@import "nav";
+/*Main con mixin*/
+main{
+    .section1{
+        @include sections();
+    }
+}
+/*Footer*/
+@import "footer";

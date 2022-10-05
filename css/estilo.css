@@ -1,85 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: #d1dfff;
-    font-family:"Sora-Regular.ttf", sans-serif ;
-}
-/*body Inicio*/
-.body1{
-    background-image:url(../assets/img/car1.jpg);
-}
-/*body Nosotros*/
-.body2{
-    background-image:url(../assets/img/car2.jpg);
-}
-/*body Contacto*/
-.body3{
-    background-image:url(../assets/img/car1.jpg);
-}
-@font-face{
-    font-family:"Sora-Regular.ttf";
-    src: url(../assets/font/Sora-Regular.ttf);
-}
-@font-face {
-    font-family:"DM_Sans-Bold.ttf";
-    src: url(../assets/font/DMSans-Bold.ttf);
-}
-h1, h2, h4, h5{
-    font-family:"DMSans-Bold.ttf", sans-serif;
-    color: #02083f;
-    font-weight:bold ;
-    text-align: center;
-    padding: 5px;
-} 
-h1, h2{
-    font-size: 3.2rem;
-    color: rgb(247, 202, 3);
-} 
-/* ESTILO PARA EL MENÚ - TODOS LOS VIEWS*/
-.logo{
-    width: 100px;
-}
-.textmenu{
-    color: rgb(2, 12, 68);
-}
-.nav-item a:hover{
-    background-color: #003b88;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: 'Urbanist', sans-serif; }
+
+/*las imagenes pesan en promedio 100kb estan optimizadas*/
+.body__index {
+  background-image: url(../assets/img/car1.jpg); }
+
+.body__nosotros {
+  background-image: url(../assets/img/car2.jpg); }
+
+.body__productos {
+  background-image: url(../assets/img/); }
+
+.body__contacto {
+  background-image: url(../assets/img/car10.1.jpg); }
+
+/*Menú*/
+.nav {
+  background-color: #00a2ff; }
+  .nav__logo {
+    width: 5rem; }
+  .nav__item {
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    background-color: #034aa7; }
+  .nav__item a:hover {
+    background-color: #020c44;
     border-radius: 0.3rem;
-    color: #d1dfff;
-}
-/* ESTILO MAIN VIEWS:INDEX-NOSOTROS*/
-.p1{
+    color: #ffffff; }
+  .nav__text {
+    color: #ffffff; }
+
+/*Main con mixin*/
+main .section1 {
+  padding: 0.3rem; }
+  main .section1__titulo {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #022f6963;
+    color: #ffd000;
+    font-size: 3rem;
+    padding: 2rem;
+    border-radius: 1.5rem; }
+  main .section1__parrafo {
+    background-color: #ffffffab;
+    color: #020c44;
     text-align: center;
     font-size: 1.5rem;
-    color: #051177;
-    padding: 10px;
-    background-color: rgba(240, 248, 255, 0.397);
-}
-/*ESTILO DEL FORMULARIO - VIEW= CONTACTO*/
-.header {
-    color: #051177;
-    font-size: 35px;
-    padding: 10px;
-    background-color: rgba(240, 248, 255, 0.397)
-}
-/*AQUI TERMINA ESTILO DE FORMULARIO*/
+    padding: 1rem;
+    border-radius: 1.5rem; }
 
-/* ESTILO PARA EL FOOTER - TODOS LOS VIEWS*/
-.textfoot{
-    color: rgb(2, 12, 68);
-}
-.textred{
-    color: rgb(2, 12, 68);
-}
-.textfoot a:hover{
-    background-color: #003b88;
+/*Footer*/
+.footer {
+  background-color: #00a2ff; }
+  .footer__text {
+    color: #020c44; }
+  .footer__text a:hover {
+    background-color: #020c44;
     border-radius: 0.3rem;
-    color: #d1dfff;
-    padding: 0.5rem
-}
-.logofoot{
-    text-align: center;
-}
+    color: #ffffff;
+    padding: 0.5rem; }
+  .footer__p {
+    text-align: center; }
+  .footer__logo {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    margin: 5px; }
+  .footer__redes {
+    background-color: #ffffff;
+    border-radius: 1rem; }

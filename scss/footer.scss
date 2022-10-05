@@ -1,0 +1,24 @@
+.footer{
+    background-color: $azulClaro;
+    &__text{
+        color: $azulOscuro;
+    }
+    &__text a:hover{
+        background-color: $azulOscuro;
+        border-radius: 0.3rem;
+        color: $blanco;
+        padding: 0.5rem;
+    }
+    &__p{
+        text-align: center;
+    }
+    &__logo{
+        background-color: $blanco;
+        border-radius: 1.5rem;
+        margin: 5px;;
+    }
+    &__redes{
+        background-color: $blanco;
+        border-radius: 1rem;
+    }
+}

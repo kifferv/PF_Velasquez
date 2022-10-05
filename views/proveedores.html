@@ -4,54 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codercar Nosotros</title>
+    <meta name="description" content="Importamos y Vendemos todo tipo de repuestos y accesorios para tú vehiculo">
+    <meta name="keywords" content="CODERCAR, REPUESTOS, ACCESORIOS, AUTOMOTRICES, VEHICULOS">
+    <title>Codecar | Proveedores Top</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Urbanist:ital,wght@1,500&display=swap" rel="stylesheet">
     <!--mi estilo 😎 -->
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="icon" href="../assets/icons/ccwhiteicon.ico">
 </head>
-<body>
-    <header>
+<body class="body__proveedores">
+    <header class="headerProveedores">
         <!---menú de la página de bootstrap pero que retoque con css e incluí redes y efectos en los botones (probe todos los botones) ✌️ -->
-        <nav class="bg-primary navbar navbar-expand-lg h4 bdnav">
+        <nav class="nav navbar navbar-expand-lg h5">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="../assets/img/codercarlogo1.png" alt="codercar logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#">
+                <img class="nav__logo" src="../assets/img/codercarlogo1.png" alt="codercar logo"></a>
+              <button class="nav__button navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link textmenu" href="../index.html">Inicio</a>
+                  <li class="nav__item">
+                    <a class="nav__text nav-link" href="../index.html">Inicio</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link textmenu" href="./nosotros.html">Nosotros</a>
+                  <li class="nav__item">
+                    <a class="nav__text nav-link" href="./nosotros.html">Nosotros</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link textmenu" href="./proveedores.html">Proveedores</a>
+                  <li class="nav__item">
+                    <a class="nav__text nav-link" href="./proveedores.html">Proveedores</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle textmenu" href="./productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./productos.html">Producto1</a></li>
-                      <li><a class="dropdown-item" href="./productos.html">Producto2</a></li>
-                      <li><a class="dropdown-item" href="./productos.html">Producto3</a></li>
+                  <li class="nav__item dropdown">
+                    <a class="nav__text nav-link dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                    <ul class="nav__subitem dropdown-menu">
+                      <li><a class="dropdown-item" href="./productos.html">Repuestos</a></li>
+                      <li><a class="dropdown-item" href="./productos.html">Accesorios</a></li>
+                      <li><a class="dropdown-item" href="./productos.html">Lubricantes</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link textmenu" href="./contacto.html">Contacto</a>
+                  <li class="nav__item">
+                    <a class="nav__text nav-link" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <div class="p-3">
-                    <a class="mb-3 text-decoration-none" href="https://www.instagram.com/" target="_blank"><img src="../assets/icons/instagramsmall.png" alt="instagram"></a>
+                    <a class="mb-3 text-decoration-none" href="https://www.instagram.com/" target="_blank">
+                        <img src="../assets/icons/instagramsmall.png" alt="instagram"></a>
                 </div>
                 <div class="p-3">
-                    <a class="mb-3 text-decoration-none" href="https://es-la.facebook.com/" target="_blank"><img src="../assets/icons/facebooksmall.png" alt="Facebook"></a>
+                    <a class="mb-3 text-decoration-none" href="https://es-la.facebook.com/" target="_blank">
+                        <img src="../assets/icons/facebooksmall.png" alt="Facebook"></a>
                 </div>
                 <div class="p-3">
-                    <a class="mb-3 text-decoration-none" href="https://twitter.com/" target="_blank"><img src="../assets/icons/twittersmall.png" alt="Twitter"></a>
+                    <a class="nav__redes mb-3 text-decoration-none" href="https://twitter.com/" target="_blank">
+                        <img src="../assets/icons/twittersmall.png" alt="Twitter"></a>
                 </div>
               </div>
             </div>
@@ -60,10 +69,10 @@
     <!---->
     <main>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 p-5">
-                    <h2 class="animate__animated animate__zoomInDown">NUESTROS PROVEEDORES</h2>
-                </div>
+            <section class="row">
+                <section class="section1 col-xs-12 p-3">
+                    <h2 class="section1__titulo animate__animated animate__zoomIn">NUESTROS PROVEEDORES</h2>
+                </section>
                 <div class="col-xs-12 col-md-6 col-lg-4 p-5">
                     <img src="../assets/img/proveedor3.png" alt="proveedor3">
                 </div>
@@ -82,16 +91,17 @@
                 <div class="col-xs-12 col-md-6 col-lg-4 p-5">
                     <img src="../assets/img/proveedor1.png" alt="proveedor1">
                 </div>
-            </div>
+            </section>
         </div>
     </main>
     <!-- footer hecho por mi desde cero con ayuda de los videos de la clase de bootstrap y retocado con CSS 👍-->
-    <footer>
-        <div class="bg-primary container-fluid bgfooter">
-            <div class="row p-3 pb-2 textfoot">
+    <footer class="footer">
+        <div class="footer__color container-fluid">
+            <div class="footer__text row p-3 pb-2">
                 <div class="col-xs-12 col-md-6 col-lg-4">
-                    <p class="h2 logofoot"><img src="../assets/icons/ccblackicon.ico" alt="">CODERCAR</p>
-                    <p><h5>Somos importadores y distribuidores!</h5></p>
+                    <p class="footer__p h2">
+                        <img class="footer__logo" src="../assets/icons/ccblackicon.ico" alt="">CODERCAR</p>
+                    <p><h5 class="text-center">Somos importadores y distribuidores!</h5></p>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <p class="h5">Dirección</p>
@@ -103,17 +113,17 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-12 col-lg-4">
-                    <p class="h5">Siguenos</p>
+                    <p class="h5">Síguenos</p>
                     <div class="mb-2">
-                        <img src="../assets/icons/instagramsmall.png" alt="Instagram">
+                        <img class="footer__redes" src="../assets/icons/instagramsmall.png" alt="Instagram">
                         <a class="mb-3 text-white text-decoration-none" href="https://www.instagram.com/" target="_blank">Instagram</a>
                     </div>
                     <div class="mb-2">
-                        <img src="../assets/icons/facebooksmall.png" alt="Facebook">
+                        <img class="footer__redes" src="../assets/icons/facebooksmall.png" alt="Facebook">
                         <a class="mb-3 text-white text-decoration-none" href="https://es-la.facebook.com/" target="_blank">Facebook</a>
                     </div>
                     <div class="mb-2">
-                        <img src="../assets/icons/twittersmall.png" alt="Twitter">
+                        <img class="footer__redes" src="../assets/icons/twittersmall.png" alt="Twitter">
                         <a class="mb-3 text-white text-decoration-none" href="https://twitter.com/" target="_blank">Twitter</a>
                     </div>
                 </div>
