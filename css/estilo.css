@@ -5,7 +5,11 @@
   box-sizing: border-box; }
 
 body {
-  background-color: white;
+  background-color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
   font-family: 'Urbanist', sans-serif; }
 
 /*las imagenes pesan en promedio 100kb estan optimizadas*/
@@ -56,6 +60,9 @@ main .section1 {
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 1.5rem; }
+
+.main {
+  margin-top: 10rem; }
 
 /*Footer*/
 .footer {

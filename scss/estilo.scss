@@ -13,7 +13,11 @@ $amarillo:#ffd000;
 @import "mixin";
 
 body{
-    background-color: white;
+    background-color: #ffffff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     font-family: 'Urbanist', sans-serif;
 }
 /*las imagenes pesan en promedio 100kb estan optimizadas*/
@@ -34,10 +38,14 @@ body{
 /*Menú*/
 @import "nav";
 /*Main con mixin*/
+
 main{
     .section1{
         @include sections();
     }
+}
+.main{
+    margin-top: 10rem;
 }
 /*Footer*/
 @import "footer";
